@@ -1,0 +1,155 @@
+
+body{
+    padding:0;
+    margin:0px;
+    background-color: lightblue;
+}
+nav{
+    background-color: darkslategrey;
+    position:fixed;
+    width:100%;
+    
+}
+.nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 2vw;
+}
+.nav a:hover{
+    background-color: green;
+    padding:5%;
+}
+
+.home h1{
+    color:goldenrod;
+    text-align: center;
+}
+.donation{
+    background-color: rgb(216, 233, 233);
+  
+
+}
+.donations{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap:90px;
+    justify-content: space-evenly;
+    padding:5%;
+    
+    
+}
+.donations .fund{
+    background-color:white;
+    display:inline-block;   
+    padding:5%;
+    text-align:center;
+    border-radius: 5%;
+    box-shadow:5px 5px 5px 5px rgb(1, 49, 61);
+}
+.donations .footware{
+    background-color:white;
+    display:inline-block;   
+    padding:5%;
+    text-align:center;
+    border-radius: 5%;
+    box-shadow:5px 5px 5px 5px rgb(1, 49, 61);
+
+}
+.donations .clothes{
+    background-color:white;
+    display:inline-block;  
+    padding:5%;
+    text-align:center;
+    border-radius: 5%;
+    box-shadow:5px 5px 5px 5px rgb(1, 49, 61);
+
+}
+.donations button{
+    background-color: dimgray;
+    border-radius: 50%;
+}
+.donations .Gadgets{
+    background-color:white;
+    display:inline-block;  
+    padding:5%;
+    text-align:center;
+    border-radius: 5%;
+    box-shadow:5px 5px 5px 5px rgb(1, 49, 61);
+
+}
+.donations .Food{
+    background-color:white;
+    display:inline-block;  
+    padding:5%;
+    text-align:center;
+    border-radius: 5%;
+    box-shadow:5px 5px 5px 5px rgb(1, 49, 61);
+
+}
+.donations .Stationary{
+    background-color:white;
+    display:inline-block;  
+    padding:5%;
+    text-align:center;
+    border-radius: 5%;
+    box-shadow:5px 5px 5px 5px rgb(1, 49, 61);
+
+}
+.missions{
+    background-color:rgb(138, 154, 184);
+    padding:5%;
+}
+.contact{
+    background-color: white;
+    padding:5%
+}
+.form{
+    align-items: center;
+}
+.form button{
+    padding-left:10px;
+    padding: right 10px;
+}
+.form button:hover{
+    background-color: green;
+}
+.i1 {
+    border:2px solid white;
+    background-color: darkgrey;
+    padding:1%;
+    max-width:150px;
+    max-height: 150px;
+   
+   
+}
+.i1 img:hover{
+    transform:scale(1.1234); 
+}
+.i2 {
+    border:2px solid white;
+
+    background-color: darkgrey;
+    padding:1%;
+    max-width:150px;
+    max-height: 150px;
+  
+   
+}
+.i2 img:hover{
+    transform:scale(1.1234); 
+}
+.mission1{
+    display:flex;
+    flex-wrap: wrap;
+     gap: 20px;
+    justify-content: space-evenly; 
+   
+}
+html{
+    scroll-behavior: smooth;
+}
